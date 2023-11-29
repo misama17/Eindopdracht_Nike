@@ -1,11 +1,52 @@
-.p1{
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: white;
     font-family: 'Futura', 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: orangered;
+}
+
+.flex-container{
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .flexbox{
-    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: 20px;
 }
 
-h2{
+h1{
     font-family: 'Futura', 'Arial', sans-serif;
+    font-size: 80px;
+}
+
+p{
+    font-family: 'Futura', 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+p1{
+    font-style: italic;
 }
